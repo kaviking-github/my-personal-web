@@ -1,0 +1,49 @@
+/* src/components/Navbar.css */
+nav {
+  background-color: #282c34;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+}
+
+nav li {
+  position: relative; /* Position relative for child elements */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px; /* Adjust padding for a better clickable area */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #61dafb; /* Change to your desired hover color */
+}
+
+.indicator {
+  position: absolute;
+  bottom: -5px; /* Adjust as needed for the height of the nav */
+  height: 4px;
+  background-color: white;
+  transition: left 0.3s ease, width 0.3s ease;
+}
+
+.active {
+  font-weight: bold;
+  color:aqua;
+}
+
+.resume {
+  left: 50px; /* Adjust based on your Resume link width */
+  width: 60px; /* Adjust based on your Resume link width */
+}
+
+.skills {
+  left: 110px; /* Adjust based on your Skills link width */
+  width: 50px; /* Adjust based on your Skills link width */
+}
