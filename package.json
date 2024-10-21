@@ -2,7 +2,7 @@
   "name": "kavi-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kavi.github.io/mypersonalweb",
+  "homepage": "https://kaviking-github.github.io/my-personal-web",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
